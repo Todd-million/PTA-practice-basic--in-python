@@ -18,3 +18,5 @@ for count in range(str_num):
             print('YES')
     else:
         print('NO')
+
+need debug
