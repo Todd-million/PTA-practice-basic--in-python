@@ -7,7 +7,7 @@ for count in range(str_num):
     str_list.append(input())
 
 for count in range(str_num):
-    if "A" not in str_list[count]:
+    if "A" in str_list[count] and "P" in str_list[count] and "T" in str_list[count]:
         n_1 = str_list[count].find('P')
         n_2_1 = str_list[count].find('T')
         n_2 = n_2_1 - n_1
@@ -19,4 +19,4 @@ for count in range(str_num):
     else:
         print('NO')
 
-#need debug
+#the question is ambiguous in description
