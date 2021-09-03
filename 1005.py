@@ -30,7 +30,7 @@ for val in result:
     result.append(str(val))
 print(' '.join(result))
 '''
-need debug
+#need debug
 
 def get_set(numbers):
     tmp = []

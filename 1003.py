@@ -19,4 +19,4 @@ for count in range(str_num):
     else:
         print('NO')
 
-need debug
+#need debug
