@@ -38,3 +38,22 @@ for a in prime_list:
 print(count, end="")
 
 #debug needed: time overflow
+
+"""
+import time
+def prime(n):
+    flag = [1]*(n+2)
+    p=2
+    while(p<=n):
+        print(p)
+        for i in range(2*p,n+1,p):
+            flag[i] = 0
+        while 1:
+            p += 1
+            if(flag[p]==1):
+                break
+start = time.time()
+prime(100000)
+end = time.time()
+print(end-start)
+"""
